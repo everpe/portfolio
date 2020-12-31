@@ -13,11 +13,15 @@ body {
 }
 
 #page-wraper {
-    background: url(../images/page-bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
+    /* no-repeat center center fixed; */
+    /* background: url(../images/abstract.jpg); */
+    background-color: rgb(44, 47, 51);
+    /* background-position: center center; */
+    /* background: linear-gradient(#4e5257, #5a5b66 , #4f5358 ); */
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
 }
 
@@ -34,13 +38,17 @@ textarea {
     outline: none;
 }
 
+.descarga{
+    color:white;
+}
 a,
 a:hover {
     text-decoration: none;
+    
 }
 
 p {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     color: #fff;
 }
@@ -136,8 +144,8 @@ html {
 }
 
 .menu .image img {
-    width: 120px;
-    height: 140px;
+    width: 35%;
+    height: 145px;
     border-radius: 50%;
     text-align: center;
     
@@ -209,7 +217,7 @@ html {
 
 .menu a {
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
 }
 
 .menu {
@@ -315,7 +323,7 @@ html {
 
 .section-heading span {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 19px;
     color: #fff;
     letter-spacing: 0.5px;
 }
@@ -474,6 +482,174 @@ section.my-work .section-heading {
     text-align: center;
     padding: 80px 45px 50px 45px;
 }
+section.skills .section-heading {
+    text-align: center;
+    padding: 80px 45px 50px 45px;
+}
+section.skills .row{
+    text-align: center;
+}
+.section-skills{
+    float: right;
+    text-align: center;
+    /* padding: 80px 45px 50px 45px; */
+    margin-left: 20%;;
+    color: white;
+} 
+.section-skills .col{
+    /* margin-left: 20%; */
+    padding-left: 15px;
+    text-align: center;
+    justify-content: center;
+}
+/*
+*/
+.wrapper{
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+margin:0 auto;
+}
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+  overflow-x:hidden;
+  overflow-y: hidden;
+  color: #fb9898;
+  
+}
+.skill > p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #e1e5e6;
+    margin: 0;
+}
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.skill-bar {
+    width: 100%;
+    height: 5px;
+    background:rgb(87 212 148);
+    display: block;
+    position: relative;
+}
+
+/* SKILL GENERAL */
+.skill-bar span{
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
+    position: relative;
+  
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 95%;
+}
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+/* SKILL 2 */
+.skill2{
+    width: 80%;
+}
+.skill2 .skill-count2 {
+    right: 0;
+}
+/* SKILL 3 */
+.skill3{
+    width: 60%;
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+    width: 50%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+    width: 80%;
+}
+.skill5 .skill-count5 {
+    right: 0;
+}
+/* SKILL 6 */
+.skill6{
+    width: 90%
+}
+.skill6 .skill-count6 {
+    right: 0;
+}
+.skill7{
+    width: 60%
+}
+.skill7 .skill-count7 {
+    right: 0;
+}
+/* Vaadin */
+.skill8{
+    width: 70%
+}
+.skill8 .skill-count8 {
+    right: 0;
+}
+.skill9{
+    width: 60%
+}
+.skill9 .skill-count9 {
+    right: 0;
+}
+.skill10{
+    width: 80%
+}
+.skill10 .skill-count10 {
+    right: 0;
+}
+/* GITHUB SOURCE STYLE  */
+.github-source{
+float:right;
+display:block;
+color:#fff;
+margin:0 20px;
+position: relative;
+z-index:999999;
+top:0;
+}
+.github-source i{
+font-size:50px;
+color:#000
+}
+
+
+
+
+
+
+
+
+
+
 
 .isotope-wrapper {
     position: relative;
@@ -678,6 +854,11 @@ section.contact-me {
     text-align: center;
 }
 
+
+
+
+
+
 @media screen and (max-width: 1680px) {
     .menu {
         left: 5%;
@@ -810,3 +991,28 @@ section.contact-me {
         margin-bottom: 20px;
     }
 }
+
+
+
+/* Cards Information */
+/* .card{
+    position: relative;
+    cursor: pointer;
+    height: 250px;
+    border: solid 1px yellow;
+} */
+
+.roww{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.card{
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    color: #000;
+    text-align: center;
+    width: 100%;
+    margin-top: 5%;
+    background-color: #e1e6eb;
+}
+
