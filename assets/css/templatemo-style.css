@@ -265,7 +265,8 @@ html {
     top: 0;
     left: 0;
     color: #a43f49;
-    background-color: #fff;
+    background-color: transparent;
+    border: solid 1px #a43f49;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -712,6 +713,7 @@ color:#000
     width: 100%;
     height: 100%;
     border-radius: 5px;
+    height: 300px;
 }
 
 .lazyload {
