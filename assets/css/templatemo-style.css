@@ -266,7 +266,7 @@ html {
     left: 0;
     color: #a43f49;
     background-color: transparent;
-    border: solid 1px #a43f49;
+    /* border: solid 1px #a43f49; */
     width: 60px;
     height: 60px;
     text-align: center;
